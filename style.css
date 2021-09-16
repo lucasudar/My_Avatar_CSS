@@ -1,0 +1,125 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    margin: 30px auto;
+    display: block;
+    background: #f9ff5f;
+    width: 300px;
+    height: 300px;
+    z-index: -100;
+}
+
+.avatar {
+    position: absolute;
+    bottom: -8%;
+    right: -8%;
+    width: 85%;
+    height: 85%;
+    background: #a4ff48;
+    border-radius: 50%;
+    box-shadow: -1px 1px black;
+}
+
+.avatar__copy {
+    position: absolute;
+    bottom: 4%;
+    right: 4%;
+    width: 90%;
+    height: 90%;
+    background: #f9ff5f;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.avatar__left-eye {
+    position: absolute;
+    bottom: 35%;
+    left: 13%;
+    width: 37%;
+    height: 37%;
+    background: #000;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.left-eye__copy {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.avatar__right-eye {
+    position: absolute;
+    bottom: 37%;
+    right: 13%;
+    width: 30%;
+    height: 30%;
+    background: #000;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.right-eye__copy {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.mouth {
+    position: absolute;
+    bottom: 28%;
+    right: 28%;
+    width: 40%;
+    height: 3%;
+    background: #000;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.ear {
+    position: absolute;
+    bottom: 30%;
+    left: -7%;
+    width: 20%;
+    height: 40%;
+    background: #000;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.headphones {
+    position: absolute;
+    top: -20%;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.headphones__copy {
+    position: absolute;
+    top: 12%;
+    left: -1%;
+    width: 100%;
+    height: 90%;
+    background: #f9ff5f;
+    border-radius: 50%;
+    z-index: -2;
+}
